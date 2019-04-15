@@ -5,7 +5,8 @@ from person.models import Person
 class CreateForm(forms.ModelForm):
     class Meta:
         model = Person
-        fields = ['full_name', 'email']
+        fields = ['full_name', 'email', 'birth_date']
         widgets = {
-            'full_name': forms.TextInput(attrs={'class': 'col-4'}),
+            'email': forms.TextInput(attrs={'placeholder': 'example@mail.com'}),
+            'birth_date': forms.TextInput(attrs={'data-mask': '00/00/0000'})
         }
