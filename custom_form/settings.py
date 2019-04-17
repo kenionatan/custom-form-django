@@ -109,6 +109,10 @@ AUTH_PASSWORD_VALIDATORS = [
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
+DATE_INPUT_FORMATS = ['%d/%m/%Y']
+
+DATETIME_INPUT_FORMATS = ['%d/%m/%Y %H:%M:%S']
+
 LANGUAGE_CODE = 'pt-br'
 
 TIME_ZONE = 'America/Maceio'
