@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'person',
     'bootstrapform',
     'crispy_forms',
+    'localflavor',
 ]
 
 MIDDLEWARE = [
